@@ -2,7 +2,10 @@ package com.example;
 
 public class App {
     public static void main(String[] args) {
+        App.display();
+    }
 
-        System.out.println("This is an test message!");
+    public static void display() {
+        System.out.println("Hello World!");
     }
 }
